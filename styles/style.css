@@ -1,0 +1,30 @@
+body{
+    background: #FAF7F0;
+    height: 100vh;
+}
+.container{
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn{
+    background: #798645;
+    border-radius: 24px;
+    padding: 12px;
+    color:#FAF7F0;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border: none;
+}
+.btn:active{
+    background: #818e4b;
+}
